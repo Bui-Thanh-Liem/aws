@@ -32,6 +32,7 @@
                 "AWS": "arn:aws:iam::664418987796:user/liemdev"
             },
             "Action": "s3:*",
+            "NotAction": "",
             "Resource": [
                 "arn:aws:s3:::test-01-25122015",
                 "arn:aws:s3:::test-01-25122015/*"
