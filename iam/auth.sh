@@ -13,16 +13,12 @@ On console aws - create access key and secret key for user
 
 aws configure
 
-aws sts get-session-token --serial-number arn:aws:iam::123456789012:mfa/your-mfa-device --token-code 123456
+aws sts get-session-token --serial-number arn:aws:iam::664418987796:mfa/liemdev.user-1 --token-code 123456
 
 sudo nano ~/.aws/credentials - replace with temp credentials
 
 test [default] 
 test [profile-name] --profile profile-name
-
-# ===== AWS CLI Authentication =====
-aws login
-
 
 # ===== Check identity =====
 aws sts get-caller-identity
