@@ -2,7 +2,7 @@
 
 # Type:
 
-    - Application load balancer (7)
+    - Application load balancer (7 layer)
 
         - Path routing condition
 
@@ -14,11 +14,11 @@
 
         - Return response
 
-    - Network load balancer (4)
+    - Network load balancer (4 layer)
 
         - TCP, UDP
 
-    - Gateway load balancer (3, 4)
+    - Gateway load balancer (3, 4 layer)
 
         - Security by provider VPC (virtual appliance)
 
