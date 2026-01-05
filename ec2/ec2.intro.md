@@ -2,6 +2,8 @@
 
 # AMI - (Amazon Machine Images) (ISO)
 
+# Lunch template - like file config, ami, vpc, Key pair, ...
+
 # EBS - (Elastic Block Store) - Volume, Snapshot
 
 # VPC - (Virtual Private Cloud) (LAN) - Subnets (public/private)

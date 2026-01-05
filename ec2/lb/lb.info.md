@@ -38,4 +38,6 @@
 
 # Cross zone (AZ)
 
+    - By default application
+
 # Target group stickiness (RAM stickiness) - (>= 2 instance)
