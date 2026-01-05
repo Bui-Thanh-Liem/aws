@@ -12,7 +12,6 @@
 
 - free -h
 
-
 # TỰ ĐỘNG BẬT SWAP SAU REBOOT (RẤT QUAN TRỌNG)
 - sudo nano /etc/fstab
 
