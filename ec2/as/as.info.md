@@ -2,14 +2,16 @@
 
 # Scale in/out (instance in cluster)
 
-# Auto Scaling Groups  
+# Auto Scaling Groups
 
     - no scale: recover instance when khi die
 
-    - manually scaling: min/max/desire 
+    - manually scaling: min/max/desire
 
     - dynamic scaling: auto scale belong monitor
 
-    - schedule scaling: 
+    - schedule scaling:
 
-    - predict scaling: aws learn 
+    - predict scaling: aws learn
+
+# Lunch template version
