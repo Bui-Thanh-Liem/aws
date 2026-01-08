@@ -8,9 +8,13 @@
 
     - Private ip
 
-# Routing
+# Routing (Route Table)
 
     - Xác định traffic sẽ được đi đâu trong mạng
+
+    - Quyết định subnet là public hay private
+
+        - Public: khi có route ra internet gateway
 
 # Elastic IP
 
@@ -24,9 +28,15 @@
 
     - Apply ở cấp độ subnet
 
+    - Có số ưu tiên
+
     - Có các role Allow/Deny
 
-    - Có số ưu tiên
+    - Protocol
+
+    - Port range
+
+    - Source IP (In bound) / destination IP (Out bound)
 
 # VPC low log
 
@@ -59,3 +69,25 @@
 # Transit gateway
 
     - Như hub giữa các VPCs
+
+# CIDR - (Classless Inter Domain Routing)
+
+    - Cách viết để xác định một dải IP dùng trong mạng
+
+    - AWS recommend:
+
+        - 192.168.0.0 - 192.168.255.255 - 192.168.0.0/20
+
+        - 10.10.0.0 - 192.255.255.255 - 10.0.0.0/16
+
+        - 172.16.0.0 - 172.31.255.255 - 172.31.0.0/16
+
+    - VD: 10.0.0.0/16
+
+        - 16 bit đầu dùng subnet mask
+
+        CIDR	    Subnet mask	        Số IP
+        /32	        255.255.255.255	    1 IP
+        /24	        255.255.255.0	    256 IP
+        /16	        255.255.0.0	        65,536 IP
+        /0	        0.0.0.0	            Toàn bộ Internet
