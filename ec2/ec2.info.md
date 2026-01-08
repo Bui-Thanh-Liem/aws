@@ -12,7 +12,7 @@
 
 # Key pairs
 
-# IP - Public - Private - Elastic
+# IP - Public - Private - Elastic (tạo mà không dùng sẽ bị tính phí)
 
 # CloudWatch
 
@@ -24,8 +24,14 @@
 
 # ===== COST => (instance) - (volume, snapshot) - (elastic ip) - (load balancer)
 
-# On-Demand: Dùng bao nhiêu trả bấy nhiêu (đắt nhất)
+# On-Demand
 
-# Reserved Instances (RI): Thuê dài hạn 1-3 năm (giảm tới 70% giá)
+    - Dùng bao nhiêu trả bấy nhiêu (đắt nhất)
 
-# Spot Instances: Đấu giá máy thừa của AWS (rẻ nhất, nhưng máy có thể bị thu hồi bất cứ lúc nào)
+# Reserved Instances (RI)
+
+    - Thuê dài hạn 1-3 năm (giảm tới 70% giá)
+
+# Spot Instances
+
+    - Đấu giá máy thừa của AWS (rẻ nhất, nhưng máy có thể bị thu hồi bất cứ lúc nào)
