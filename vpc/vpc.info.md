@@ -91,3 +91,13 @@
         /24	        255.255.255.0	    256 IP
         /16	        255.255.0.0	        65,536 IP
         /0	        0.0.0.0	            Toàn bộ Internet
+
+# Trouble shoot
+
+    - VPC có internet gateway chưa
+
+    - Security group của instance có mở port không
+
+    - Subnet có gán route table chưa - route table có route
+
+    - ACL có  InBound/OutBound allow chưa
